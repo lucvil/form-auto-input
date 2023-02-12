@@ -9,7 +9,7 @@ time.sleep(random_time)
 driver = webdriver.Chrome("./chromedriver.exe")
 
 #学校のホームページ
-url = "https://forms.office.com/Pages/ResponsePage.aspx?id=T6978HAr10eaAgh1yvlMhK2wyXK178VNrGuxYcyhURJUQjE4RlJJQThWSzZTU1FBOUk4U0xNVDk0OS4u"
+url = ""
 driver.get(url)
 
 driver.maximize_window()
@@ -24,7 +24,7 @@ time.sleep(10)
 
 # #サインイン
 # element = driver.find_elements_by_tag_name("input")[0]
-# key = "4330506961@utac.u-tokyo.ac.jp"
+# key = ""
 # element.send_keys(key)
 
 # element = driver.find_element_by_id("idSIButton9")
@@ -33,7 +33,7 @@ time.sleep(10)
 
 # #学校のログイン画面
 # element = driver.find_elements_by_tag_name("input")[1]
-# key = "MSGmsg32016743@"
+# key = ""
 # element.send_keys(key)
 
 # element = driver.find_element_by_id("submitButton")
